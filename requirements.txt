@@ -1,0 +1,3 @@
+tabulate
+python-telegram-bot
+requests
