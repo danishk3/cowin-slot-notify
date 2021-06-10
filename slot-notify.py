@@ -10,7 +10,7 @@ bot = telegram.Bot(token='')    #Enter Telegram bot token
 minimum_slots = 1
 min_age_booking = 24
 fee_type = ['Free']           #Free or Paid or Both
-CALENDAR_URL_DISTRICT = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/calendarByDistrict?district_id={0}&date={1}"
+CALENDAR_URL_DISTRICT = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id={0}&date={1}"
 start_date = 1
 vaccine = 'covishield'   #vaccine choice
 pincode_range = range(400055, 400104)   #pincode range for centers
