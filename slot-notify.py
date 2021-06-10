@@ -13,7 +13,7 @@ fee_type = ['Free']           #Free or Paid or Both
 CALENDAR_URL_DISTRICT = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id={0}&date={1}"
 start_date = 1
 vaccine = 'covishield'   #vaccine choice
-pincode_range = range(400055, 400104)   #pincode range for centers
+pincode_range = range(400000, 400104)   #pincode range for centers
 dose = 1   #Dose number
 dose_str = 'available_capacity_dose1' if dose == 1 else 'available_capacity_dose2'
 
